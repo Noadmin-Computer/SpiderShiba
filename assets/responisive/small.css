@@ -1,0 +1,219 @@
+@media only screen and (max-width: 1115px) {
+     .list-item {    
+        position: fixed;
+        float: none;
+        flex-direction: column;
+        z-index: 9;
+        left: 0;
+        bottom: 100%;
+        right: 0;
+        top: 100px;
+        width: auto;
+        height: auto;
+        background: linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+       
+     }
+     .list-item li{
+         font-size: 40px;
+         font-weight: 600;
+
+     }
+    .join-m button{
+        display: none;
+    }
+   .icon-burger {
+       display: block;
+       z-index: 10;
+   }
+   .navbar :checked ~ ul {
+       bottom: 0;
+   } 
+   .navbar :checked ~ .icon-burger .line:nth-child(1) {
+       transform: translateY(10px) rotate(225deg);
+   }
+   .navbar :checked ~ .icon-burger .line:nth-child(2) {
+       opacity: 0;
+   }
+   .navbar :checked ~ .icon-burger .line:nth-child(3) {
+       transform: translateY(-10px) rotate(-225deg);
+   }
+  .more-spider{
+    position: relative;
+    width: 200px;
+    margin-top: 20px;
+    right: 30px;
+  }
+  .contacts{
+      top: 132%;
+  }
+}
+@media only screen and (max-width: 987px){
+    .wrap{
+        display:block;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .join{
+        position: relative;
+        left: 4%;
+        width: 85%;
+    }
+    .more-spider{
+        position: absolute;
+        left: -1px;
+        top: 124.4%;
+        width: 85%;
+    }
+    .con{
+        top: 183%;
+    }
+    .contacts{
+        position: absolute;
+        width: 98%;
+        left: 1%;
+        top: 160%;
+    }
+    .right-side img{
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        margin-left: 100px;
+        top: 145%;
+    }
+    .tocin-info{
+        position: relative;
+        top: 260px;
+    }
+    .container{
+        position: relative;
+        top: 300px;
+    }
+    .company-img{
+        display: none;
+    }
+  .nd-bg{
+        height: 30vh;
+    }
+.container h1{
+    margin-left: -60px;
+}
+
+.earth{
+    left: 0;
+}
+.mr-shiba{
+    left: 14%;
+}
+.container button[type="submit"]{
+    left: -10%;
+    width: 100%;
+    top: 340%;
+}
+.Curtain{
+    left: -50%;
+}
+.Curtain-nd{
+    left: -30%;
+}
+.Curtain-rd{
+  left: -20%;
+}
+.st-icon{
+    position: absolute;
+    top: 120%;
+    left: -20%;
+}
+.rd-icon{
+    position: absolute;
+    top: 100%;
+    left: 80%; 
+}
+.nd-icon{
+    position: absolute;
+    top: 280%;
+    left: 90%; }
+.card-container{
+    display: block;
+    margin-top: 400px;
+}
+.card{
+    height: 477px;
+}
+.play-card{
+    display: block;
+    width: 330px;
+    height: 636px;
+    left: 1%;
+}
+.play-image img:nth-child(1){
+    width: 95px;
+}
+.play-image img:nth-child(2){
+    width: 95px;
+    margin-left: 100px;
+}
+.play-image img:nth-child(3){
+    width: 95px;
+    margin-left: 100px;
+}
+.play-info{
+    width: 50%;
+    position: absolute;
+    left: -2%;
+    top: 660%;
+}
+.play-info h1{
+    font-size: 15px;
+}
+.play-info p{
+    font-size: 15px;
+}
+.play-wrap{
+    display: block;
+}
+.earn-card{
+    width: 327px;
+    height: 411px;
+    display: block;
+
+}
+.earn-info, .game-info{
+    width: 80%;
+    margin: 0 auto;
+}
+.game-card{
+    width: 327px;
+    height: 411px;
+    display: block;
+}
+.invest-bg{
+    height: 500vh;
+}
+.invest-wrap{
+    display: block;
+}
+.invest-right-side{
+    display: none;
+}
+.line{
+    top: 1010%;
+    left: 1%;
+}
+.roadmap-card,nd-roadmap-card{
+    margin-top: 300px
+}
+.roadmap-card, nd-roadmap-card{
+    width: 205px;
+    display: block;
+}
+.roadmap-image img{
+    width: 60px;
+}
+.roadmap-info{
+    margin-top: -100px;
+    margin-left: 20px;
+}
+}

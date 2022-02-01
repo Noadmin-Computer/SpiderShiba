@@ -1,0 +1,566 @@
+:root{
+    --bg:linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+    --secondary-color:#AC1216;
+    --p-gray:#A0A3B5;
+    --pgray:#71768E;
+    --c-blue:#384D70;
+    --color-rgba: rgba(255, 255, 255, 0.7);
+    --play-card-bg:#071022;
+    --earn-card:#FF9429;
+    --game-card:#067CCB;
+    --ivest-bg:#30298C;
+}   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Seprodisplay;
+    src: url(/assets/font/SFPRODISPLAYREGULAR.OTF);
+}
+body{
+    font-family: Seprodisplay, sans-serif;
+    overflow-x: hidden;
+    background:var(--bg);
+}
+
+header{
+    width: 100%;
+}
+.navbar .nav-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 36px;
+}
+.list-item{
+    display: flex;
+    margin-left: 1px;
+    align-items: center;
+    margin-left: 126px;
+}
+.list-item li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20.6px;
+    transition: .5s;
+   
+ }
+
+
+  .list-item li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 10.6px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s;
+    padding: 10px;
+    font-family: Swprodisplay;
+    text-transform: uppercase;
+    
+}
+.join-m button{
+    width: 170px;
+    height: 40px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+/* ul:hover li a {
+    filter: blur(5px);
+}
+
+ul:hover li a:hover {
+    font-size: 20px;
+    filter: blur(0px);
+} */
+#navigation-bar {
+    position: absolute;
+    top: -100px;
+    /* display: none; */
+}
+.icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all .3s;
+}
+.icon-burger .line {
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+    transition: all .3s;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 138vh;
+    background-image: url(/assets/images/bg.png);
+    z-index: -1;
+    top: -1%;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+.left-side{
+    width: 50%;
+}
+.left-side span{
+    color: var(--secondary-color);
+}
+.left-side h1{
+    font-size: 80px;
+    color: #fff;
+}
+.left-side p{
+    margin-top: 5px;
+    color: var(--pgray);
+    font-size: 25px;
+}
+.left-side p:nth-child(3){
+    margin-top: 40px;
+    color: var(--p-gray);
+    font-size: 32px;
+}
+.join {
+    width: 184px;
+    height: 80px;
+    font-size: 18px;
+    color: #fff;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 46px;
+}
+.more-spider{
+    width: 379px;
+    height: 80px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    background: rgba(255, 255, 255, 0.05)
+}
+ h2{
+    position: absolute;
+    font-size: 15px;
+    top: 115%;
+    left: 10%;
+    color: rgba(255, 255, 255, 0.2);
+}
+.contacts{
+    position: absolute;
+    width: 699px;
+    height: 75px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 148px;
+    left: 5%;
+}
+.tocin-info button{
+    width: 100%;
+    margin-top: 220px;
+    background: #5A4039;
+    color: rgba(255, 245, 0, 0.6);
+    height: 38px;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+}
+.company-img img{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.Curtain{
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    background: #143D85;
+    opacity: 0.05;
+    border-radius: 50%;
+    left: 70px;
+}
+.Curtain-nd{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background: #143D85;
+    opacity: 0.1;
+    border-radius: 50%;
+    top: 100px;
+    left: 200px;
+}
+.Curtain-rd{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background: #143D85;
+    opacity: 0.1;
+    border-radius: 50%;
+    top: 200px;
+    left: 300px;
+}
+.container{
+    width: 100%;
+    height: 150vh;
+    background-image: url(/assets/images/2-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nd-bg{
+    position: absolute;
+    left: 100px;
+}
+.earth{
+    position: absolute;
+    z-index: 8;
+    top: 290px;
+    left: 380px;
+}
+.mr-shiba{
+    position: absolute;
+    left: 465px;
+    top: 360px;
+    z-index: 9;
+}
+.container button[type="submit"]{
+    position: absolute;
+    width: 215px;
+    height: 77px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    top: 550px;
+    left: 455px;
+    z-index: 10;    
+    cursor: pointer;
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-left: 300px;
+    z-index: 10;
+    margin-top: 100px; }
+.st-icon{
+    position: absolute;
+    top: 130%;
+    left: 20%;
+}
+.rd-icon{
+    position: absolute;
+    top: 10%;
+    left: 100%; 
+}
+.nd-icon{
+    position: absolute;
+    top: 280%;
+    left: 60%; 
+}
+.title h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 102px;
+}
+.card{
+    width: 381px;
+    height: 560px;
+    background: var(--c-blue);
+    border-radius: 20px;
+    margin-left: 42.5px;
+}
+.card:nth-child(2){
+    height: 602px;
+    margin-top: 40px;
+}
+.card:nth-child(3){
+    height: 460px;
+    margin-bottom: 100px;
+}
+.card-image{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.card-info{
+    margin-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.card-info h1{
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.card-info p{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    opacity: 0.3;
+    margin-top: 10px;
+}
+.card-info h3{
+    color: var(--color-rgba);
+    font-size: 15,6px;
+    margin-top: 30px;
+}
+.play-card{
+    width: 90%;
+    height: 384px;      
+    background: var(--play-card-bg);
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+.play-image{
+    width: 70%;
+}
+.play-image img{
+    width: 120%;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.play-image img:nth-child(1){
+    position: absolute;
+    width: 200px;
+    margin-top: 100px;
+    transform: rotate(350deg);
+}
+.play-image img:nth-child(2){
+    position: absolute;
+    width: 200px;
+    left: 30%;
+    z-index: 2;
+}
+.play-image img:nth-child(3){
+    position: absolute;
+    width: 200px;
+    left: 30%;
+    z-index: 1;
+}
+.play-info{
+    margin-left: 140px;
+    margin-top: 100px;
+}
+.play-info h1{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.play-info p{
+    font-size: 15px;
+    color: var(--p-gray);
+    margin-top: 20px;
+}
+.play-wrap{
+    width: 95%;
+    margin: 0 auto;
+    margin-right: 300px;
+    display: flex;
+}
+.earn-card{
+    width: 600px;
+    height: 231px;
+    background: var(--earn-card);
+    border-radius: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 92px;
+}
+.earn-image{
+    margin: 30px 36px;
+}
+.earn-info{
+    margin-top: 36px;
+}
+.earn-info h1{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.earn-info p{
+    font-size: 15px;
+    color:#fff;
+    margin-top: 20px;
+}
+.game-card{
+    width: 600px;
+    height: 231px;
+    background: var(--game-card);
+    border-radius: 30px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 92px;
+}
+.game-image{
+    margin: 30px 36px;
+}
+.game-info{
+    margin-top: 36px;
+}
+.game-info h1{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.game-info p{
+    font-size: 15px;
+    color:#fff;
+    margin-top: 20px;
+}
+.invest-wrap{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 175px;
+   
+}
+.invest-bg{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--ivest-bg);
+    z-index: -1;
+    margin-top: 175px;
+}
+.invest-left-side{
+    width: 50%;
+}
+.invest-left-side h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 177px;
+}
+.invest-left-side p{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+.invest-left-side button{
+    width: 404px;
+    height: 80px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.invest-right-side{
+    width: 50%;
+    margin-left: 316px;
+}
+.invest-right-side h1{
+    color: #fff;
+    font-size: 18px;
+}
+.nd-text{
+    margin-top: 56px;
+}
+.invest-right-side p{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+.roadmap-bg{
+    position: absolute;
+    width: 100%;
+    height: 300vh;
+    background-color: var(--play-card-bg);
+    margin-top: 200px;
+    z-index: -1;
+}
+.roadmap-title h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 260px;
+}
+.line{
+    position: absolute;
+    left: 50%;
+    top: 700%;
+    z-index: 8;
+}
+.dot{
+    position: absolute;
+    z-index: 9;
+    margin-left: -5px;
+}
+.roadmap-card{
+    position: absolute;
+    width: 495px;
+    height: 216px;
+    background: rgba(56, 77, 112, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    left: 12%;
+}
+.roadmap-image{
+    width: 138px;
+    height: 146px;
+    margin: 30px 35px;
+}
+.roadmap-info{
+    margin-top: 36px;
+}
+.roadmap-info h4{
+    color: #fff;
+    font-weight: normal;
+}
+.roadmap-info li{
+    color: #fff;
+}
+.roadmap ul{
+    margin-top: 20px;
+}
+
+.roadmap-card-nd{
+    position: absolute;
+    width: 495px;
+    height: 306px;
+    background: rgba(56, 77, 112, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    display: flex;
+    margin-top: 200px;
+    left: 52%;
+}
