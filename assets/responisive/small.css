@@ -48,7 +48,48 @@
   .contacts{
       top: 132%;
   }
+  .partners-st{
+      display: none;
+  }
+  .partners{
+      position: relative;
+      display: block;
+      left: 70px;
+  }
+  .token-bg img{
+    width: 250px;
+    margin-top: -10px;
+    margin-left: -50px;
+  }
+  .token-card{
+      display: none;
+  }
+  .token_left-side .token-card:nth-child(1){
+   
+      
+      width: 200%;
+      display: block;
+      margin-top: 200px;
+  }
+  .footer-bg{
+      left: 0;
+  }
+  .footer-container{
+      height: 160vh;
+  }
+  .footer-container button{
+      width: 95%;
+      left: 10px;
+  }
+  .footer-img{
+      margin-left: -100px;
+  }
+  .footer-img img:nth-child(7){
+      position: absolute;
+      left: 100px;
+  }
 }
+
 @media only screen and (max-width: 987px){
     .wrap{
         display:block;
@@ -216,4 +257,54 @@
     margin-top: -100px;
     margin-left: 20px;
 }
+}
+@media (max-width: 992px) {
+    .timeline {
+        padding: 15px;
+    }
+    .timeline:after {
+        border: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(odd) .timeline-content:after {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) {
+        padding: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-time {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 0 0 10px 0;
+        text-align: left;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content {
+        margin: 0;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:before {
+        display: none;
+    }
+    .timeline .timeline-row:nth-child(even) .timeline-content:after {
+        display: none;
+    }
+    .carousel-inner{
+        margin-top: 2300px;
+    }
+  
+    }
 }
